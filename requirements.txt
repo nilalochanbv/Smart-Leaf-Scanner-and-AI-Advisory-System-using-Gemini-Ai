@@ -1,9 +1,9 @@
 streamlit
 torch
 torchvision
-opencv-python
-numpy
-Pillow
 ultralytics
+opencv-python-headless
+numpy
+pillow
 google-generativeai
 python-dotenv
