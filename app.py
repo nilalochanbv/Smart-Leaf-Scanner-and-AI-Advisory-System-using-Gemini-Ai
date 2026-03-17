@@ -40,7 +40,7 @@ Rules:
 - If unsure, say "Not clearly identifiable"
 """
 
-    model = genai.GenerativeModel("gemini-1.5-flash")
+    model = genai.GenerativeModel("gemini-1.5-flash-latest")
 
     response = model.generate_content([prompt, image])
     return response.text
